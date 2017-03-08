@@ -8,7 +8,6 @@ before_install:
   - gem update bundler
 addons:
   code_climate:
-    repo_token: <token> # SEE https://docs.codeclimate.com/docs/setting-up-test-coverage#section-how-to
-# regular test configuration
+    repo_token: bf148eb6cb4ff9ae6666bd12aab208c0aff2e42e29be855b89aac890a3dd946e
 after_success:
   - bundle exec codeclimate-test-reporter
