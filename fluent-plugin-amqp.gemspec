@@ -36,5 +36,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency(%q<minitest>, ["< 5.0.0"])
   s.add_development_dependency(%q<test-unit>, [">= 3.1.0"])
   s.add_development_dependency(%q<simplecov>, [">= 0.10"])
+  s.add_development_dependency(%q<codeclimate-test-reporter>, ["~> 1.0.0"])
 
 end
